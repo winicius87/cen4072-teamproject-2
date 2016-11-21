@@ -24,7 +24,7 @@ public class test {
 
     @BeforeClass
     public static void oneTimeSetup(){
-        //Set your path to the Geckodriver application
+        //Set your path to the geckodriver application
         System.setProperty("webdriver.gecko.driver","C:\\Users\\Michael\\Desktop\\geckodriver.exe");
         driver = new FirefoxDriver();
     }
